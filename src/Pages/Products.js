@@ -6,8 +6,8 @@ import ContactPhoneIcon from '@material-ui/icons/ContactPhone';
 import  classes from './Product.module.css';
 
 const Products = () => {
-    return <section className={classes.container}>
-              <h1>The Product Page</h1>
+    return <section className={classes.container}>      
+              <h1 style={{color:'#044599'}}>The Product Page</h1>
                 <Link to="/products/p1" style={{color:'#044599', marginBottom:'10px'}}>
                       <MenuBookIcon color="primary"/>
                           A Book
